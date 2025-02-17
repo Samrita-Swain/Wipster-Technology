@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 ft-mb">
               <div className="footer-logo">
                 <Link to="/">
                   <img
@@ -17,7 +17,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 ft-mb">
               <h6>Useful Links</h6>
               <ul>
                 <li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 ft-mb">
               <h6>Our Services</h6>
               <ul>
                 <li>Web Design</li>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <li>Graphic Design</li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 ft-mb">
               <h6>Patia NandanVihar</h6>
               <h6>IN 751024, India</h6>
               <br />

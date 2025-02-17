@@ -576,7 +576,19 @@ span{
 }
 .about-third-band{
   background-color: #fdfeff;
-  padding: 100px 40px;
+  padding: 50px 40px;
+}
+.about-third-band .content h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-third-band .content p{
+  font-size: 17px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
 }
 .about-circle{
   font-size: 35px;
@@ -587,11 +599,101 @@ span{
   font-size: 20px;
 }
 
+.flex.w-max{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+.logo-width {
+  width: 60%;
+}
+.main-div{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.options h1{
+  font-size: 20px;
+}
+.security-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+.security-box img{
+  width: 20%;
+}
+.overflow-hidden.relative.w-full.bg-white.py-4{
+  margin-bottom: 50px;
+}
+.bw-img {
+  display: block;
+}
 
+.color-img {
+  display: none;
+}
 
+.security-box:hover .bw-img {
+  display: none;
+}
 
-
-
+.security-box:hover .color-img {
+  display: block;
+}
+.about-fourth-band{
+  padding: 50px 40px;
+  /* background-color: #e8effb; */
+  background-image: url(../images/why-different-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-fourth-band .content h1{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+}
+.fourth-box {
+  background-color: #ffffffa6;
+  padding: 18px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  transition: 0.5s;
+  height: 75px;
+  box-shadow: 0 2px 5px rgb(6 90 174);
+  margin-bottom: 30px;
+}
+.fourth-box .text h6 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.fourth-box .text{
+  position: sticky;
+}
+.number h1 {
+  font-size: 17px;
+  color: #00000029;
+  margin-bottom: 0;
+}
+.number h1{
+  transition: 0.5s;
+}
+.fourth-box:hover .number h1{
+  font-size: 25px;
+  color: #000;
+}
+.ft-mb{
+  margin-bottom: 20px;
+}
 
 
 
@@ -619,7 +721,19 @@ span{
 }
 
 @media (max-width: 768px) {
+  .footer-logo img {
+    width: 50%;
+}
+  .about-first-band .content {
+    margin-top: 50%;
+}
+  .about-second-band .about-box {
+    margin-bottom: 30px;
+}
 
+  .security-box {
+    margin-bottom: 30px;
+}
   .formWrapper {
     gap: 10px;
   }
