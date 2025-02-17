@@ -4,7 +4,7 @@ const logos = [
   { name: "React", url: "/images/React.png", id: 1 },
   { name: "Angular", url: "/images/angular.png", id: 2 },
   { name: "Vue", url: "/images/vue.png", id: 3 },
-  { name: "Svelte", url: "public/images/svelte.png", id: 4 },
+  { name: "Svelte", url: "/images/svelte.png", id: 4 },
   { name: "ButterCMS", url: "/images/butterCMS.png", id: 5 },
   { name: "Google Analytics", url: "/images/goggleAnalytics.png", id: 6 },
   { name: "React Cloudinary", url: "/images/react-cloudinary.png", id: 7 },
